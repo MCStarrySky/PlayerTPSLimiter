@@ -34,7 +34,7 @@ public final class PlayerTPSLimiter extends PPlugin {
     }
 
     @Override
-    public void onLoad() {
+    public void load() {
         getLogger().info("正在加载PlayerTPSLimiter，版本" + getDescription().getVersion());
         super.registerCommand("playertpslimiter", new PlayerTpsLimiterCommand(this));
     }
