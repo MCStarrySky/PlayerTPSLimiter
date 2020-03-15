@@ -1,0 +1,9 @@
+Plugin:
+  Prefix: "&9&lPlayerTPSLimiter"
+  INFO: "&a>> "
+  WARN: "&e>> "
+  ERROR: "&c>> "
+  Help:
+    - "/playertpslimiter reload 重载插件配置和本地化数据"
+Lang:
+  KickMessage: "由于服务器TPS低于可被忍受的设置值{0},您无法登录至此服务器"

@@ -1,0 +1,12 @@
+name: PlayerTPSLimiter
+version: ${project.version}
+main: cn.lingyuncraft.playertpslimiter.PlayerTPSLimiter
+api-version: 1.13
+authors: [shaokeyibb]
+description: Limit your maximum player number from TPS
+commands:
+  playertpslimiter:
+    description: "PlayerTPSLimiter总命令"
+    usage: /playertpslimiter help
+    permission: "playertpslimiter.admin"
+    permission-message: "PlayerTPSLimiter>> 您没有权限执行此命令"
