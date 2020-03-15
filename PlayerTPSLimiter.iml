@@ -36,7 +36,7 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.ow2.asm:asm-commons:7.3.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.ow2.asm:asm-tree:7.3.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.ow2.asm:asm-analysis:7.3.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: com.github.Polar-Pumpkin:ParrotX:e08630c788" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.github.Polar-Pumpkin:ParrotX:22e4d9e876" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.scireum:parsii:1.5" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.github.WesJD.AnvilGUI:anvilgui:99a504a3bb" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.18.12" level="project" />

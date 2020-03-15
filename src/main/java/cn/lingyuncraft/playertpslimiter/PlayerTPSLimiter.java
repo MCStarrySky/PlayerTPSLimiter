@@ -37,6 +37,7 @@ public final class PlayerTPSLimiter extends PPlugin {
     public void load() {
         getLogger().info("正在加载PlayerTPSLimiter，版本" + getDescription().getVersion());
         super.registerCommand("playertpslimiter", new PlayerTpsLimiterCommand(this));
+        getLogger().info("正使用TPS检查模式"+Configuration.TPSCHECKMODE+",TPS限制至"+Configuration.LIMITTPS);
     }
 
 }

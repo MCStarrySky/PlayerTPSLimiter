@@ -18,6 +18,7 @@ public class PlayerJoiner implements Listener {
         if (Bukkit.getTPS()[Configuration.TPSCHECKMODE] <= Configuration.LIMITTPS) {
             e.disallow(AsyncPlayerPreLoginEvent.Result.KICK_FULL, plugin.lang.get(plugin.localeKey, I18n.Type.INFO, "Lang", "KickMessage")
                     .replace("{0}", String.valueOf(Configuration.LIMITTPS)));
+            plugin.lang.log("玩家"+e.getName()+"由于尝试在TPS过低时加入服务器而被断开连接", I18n.Type.INFO,true);
         }
     }
 }
