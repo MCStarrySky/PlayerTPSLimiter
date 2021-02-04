@@ -40,6 +40,34 @@
                             <goal>shade</goal>
                         </goals>
                         <configuration>
+                            <relocations>
+                                <relocations>
+                                    <relocation>
+                                        <pattern>com.cryptomorin</pattern>
+                                        <shadedPattern>cn.lingyuncraft.playertpslimiter.utils.parrotx.utils</shadedPattern>
+                                    </relocation>
+                                    <relocation>
+                                        <pattern>net.wesjd</pattern>
+                                        <shadedPattern>cn.lingyuncraft.playertpslimiter.utils.parrotx.utils.anvilgui</shadedPattern>
+                                    </relocation>
+                                    <relocation>
+                                        <pattern>parsii</pattern>
+                                        <shadedPattern>cn.lingyuncraft.playertpslimiter.utils.parrotx.utils.parsii</shadedPattern>
+                                    </relocation>
+                                    <relocation>
+                                        <pattern>org.bstats</pattern>
+                                        <shadedPattern>cn.lingyuncraft.playertpslimiter.utils.parrotx.utils.bstats</shadedPattern>
+                                    </relocation>
+                                    <relocation>
+                                        <pattern>com.zaxxer</pattern>
+                                        <shadedPattern>cn.lingyuncraft.playertpslimiter.utils.parrotx.utils</shadedPattern>
+                                    </relocation>
+                                    <relocation>
+                                        <pattern>org.serverct.parrot.parrotx</pattern>
+                                        <shadedPattern>cn.lingyuncraft.playertpslimiter.utils.parrotx</shadedPattern>
+                                    </relocation>
+                                </relocations>
+                            </relocations>
                             <createDependencyReducedPom>false</createDependencyReducedPom>
                         </configuration>
                     </execution>
@@ -79,8 +107,8 @@
         <dependency>
             <groupId>com.github.Polar-Pumpkin</groupId>
             <artifactId>ParrotX</artifactId>
-            <version>22e4d9e876</version>
-            <scope>provided</scope>
+            <version>5a3a19c03a</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
