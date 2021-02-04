@@ -32,7 +32,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-                <version>3.1.0</version>
+                <version>3.2.4</version>
                 <executions>
                     <execution>
                         <phase>package</phase>
@@ -41,32 +41,33 @@
                         </goals>
                         <configuration>
                             <relocations>
-                                <relocations>
-                                    <relocation>
-                                        <pattern>com.cryptomorin</pattern>
-                                        <shadedPattern>cn.lingyuncraft.playertpslimiter.utils.parrotx.utils</shadedPattern>
-                                    </relocation>
-                                    <relocation>
-                                        <pattern>net.wesjd</pattern>
-                                        <shadedPattern>cn.lingyuncraft.playertpslimiter.utils.parrotx.utils.anvilgui</shadedPattern>
-                                    </relocation>
-                                    <relocation>
-                                        <pattern>parsii</pattern>
-                                        <shadedPattern>cn.lingyuncraft.playertpslimiter.utils.parrotx.utils.parsii</shadedPattern>
-                                    </relocation>
-                                    <relocation>
-                                        <pattern>org.bstats</pattern>
-                                        <shadedPattern>cn.lingyuncraft.playertpslimiter.utils.parrotx.utils.bstats</shadedPattern>
-                                    </relocation>
-                                    <relocation>
-                                        <pattern>com.zaxxer</pattern>
-                                        <shadedPattern>cn.lingyuncraft.playertpslimiter.utils.parrotx.utils</shadedPattern>
-                                    </relocation>
-                                    <relocation>
-                                        <pattern>org.serverct.parrot.parrotx</pattern>
-                                        <shadedPattern>cn.lingyuncraft.playertpslimiter.utils.parrotx</shadedPattern>
-                                    </relocation>
-                                </relocations>
+                                <relocation>
+                                    <pattern>com.cryptomorin</pattern>
+                                    <shadedPattern>cn.lingyuncraft.playertpslimiter.utils.parrotx.utils</shadedPattern>
+                                </relocation>
+                                <relocation>
+                                    <pattern>net.wesjd</pattern>
+                                    <shadedPattern>cn.lingyuncraft.playertpslimiter.utils.parrotx.utils.anvilgui
+                                    </shadedPattern>
+                                </relocation>
+                                <relocation>
+                                    <pattern>parsii</pattern>
+                                    <shadedPattern>cn.lingyuncraft.playertpslimiter.utils.parrotx.utils.parsii
+                                    </shadedPattern>
+                                </relocation>
+                                <relocation>
+                                    <pattern>org.bstats</pattern>
+                                    <shadedPattern>cn.lingyuncraft.playertpslimiter.utils.parrotx.utils.bstats
+                                    </shadedPattern>
+                                </relocation>
+                                <relocation>
+                                    <pattern>com.zaxxer</pattern>
+                                    <shadedPattern>cn.lingyuncraft.playertpslimiter.utils.parrotx.utils</shadedPattern>
+                                </relocation>
+                                <relocation>
+                                    <pattern>org.serverct.parrot.parrotx</pattern>
+                                    <shadedPattern>cn.lingyuncraft.playertpslimiter.utils.parrotx</shadedPattern>
+                                </relocation>
                             </relocations>
                             <createDependencyReducedPom>false</createDependencyReducedPom>
                         </configuration>
